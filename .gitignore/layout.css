@@ -2775,7 +2775,7 @@ body.boxed #topBar.dark ul.top-links>li {
         display: block !important;
     }
     #topNav div.nav-main-collapse {
-        position: relative;
+      /*  position: relative; */
     }
 
 
@@ -2863,9 +2863,11 @@ body.boxed #topBar.dark ul.top-links>li {
         overflow: initial;
     }
 
-    #topNav div.nav-main-collapse.in nav.nav-main{
-        overflow-y:auto;
-        max-height:290px;
+    #topNav div.nav-main-collapse.in nav.nav-main {
+        overflow-y: auto;
+        max-height: 268px;
+        width: calc( 100% + 30px);
+
     }
 }
 
